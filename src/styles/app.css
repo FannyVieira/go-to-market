@@ -1,0 +1,23 @@
+.shoppingMain .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #FFF;
+  margin: auto;
+}
+.shoppingMain .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: auto;
+  background-color: #0066FF;
+  color: #FFF;
+  border: 2px solid #0066FF;
+  font-family: "Courier New", Times, serif;  
+  font-weight: bold;  
+}
+ 
+.shoppingMain .header button:hover {
+  margin: auto;
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
