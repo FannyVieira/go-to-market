@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 
 class ShoppingForm extends Component{
     render(){
@@ -13,5 +14,9 @@ class ShoppingForm extends Component{
         );
     }
 };
+
+ShoppingForm.PropTypes = {
+    handleChange: PropTypes.func.isRequired
+}
 
 export default ShoppingForm;
